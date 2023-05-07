@@ -147,6 +147,7 @@
                             <mainClass>com.example.bibliotecadecodigopmi/com.example.bibliotecadecodigopmi.gui.PMBOKLibraryGUI</mainClass>
                         </configuration>
                         <goals>
+                            <goal>run</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -156,6 +157,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase> <!-- Add the desired phase here, e.g., 'package' -->
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <archive>
                         <manifest>
@@ -169,12 +178,20 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
+                <executions>
+                    <execution>
+                        <id>default-compile</id>
+                        <phase>compile</phase> <!-- Add the desired phase here, e.g., 'compile' -->
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <source>11</source>
                     <target>11</target>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>
