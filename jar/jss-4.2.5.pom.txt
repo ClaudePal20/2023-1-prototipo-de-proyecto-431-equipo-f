@@ -1,7 +1,0 @@
-<project>
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>org.mozilla</groupId>
-    <artifactId>jss</artifactId>
-    <version>4.2.5</version>
-    <packaging>jar</packaging>
-</project>
