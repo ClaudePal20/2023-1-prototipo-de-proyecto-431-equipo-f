@@ -165,7 +165,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
-                <configuration>
+                <configuration>mvn install:install-file "-DgroupId=org.mozilla" "-DartifactId=jss" "-Dversion=4.2.5" "-Dpackaging=jar" "-Dfile=C:\Users\elioh\OneDrive\Documents\GitHub\2023-1-prototipo-de-proyecto-431-equipo-f\jar"
                     <source>19</source>
                     <target>19</target>
                 </configuration>
