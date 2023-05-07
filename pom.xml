@@ -82,17 +82,35 @@
             <artifactId>tilesfx</artifactId>
             <version>17.1.17</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.github.almasb</groupId>
+            <artifactId>fxgl-io</artifactId>
+            <version>17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.almasb</groupId>
+            <artifactId>fxgl-core</artifactId>
+            <version>17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.almasb</groupId>
+            <artifactId>fxgl-entity</artifactId>
+            <version>17.2</version>
+        </dependency>
         <dependency>
             <groupId>com.github.almasb</groupId>
             <artifactId>fxgl</artifactId>
             <version>17.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.openjfx</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.github.almasb</groupId>
+            <artifactId>fxgl-scene</artifactId>
+            <version>17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.almasb</groupId>
+            <artifactId>fxgl-gameplay</artifactId>
+            <version>17.2</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
