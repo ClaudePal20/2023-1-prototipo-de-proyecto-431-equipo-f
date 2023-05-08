@@ -3,22 +3,22 @@
 <suite name="Suite" parallel="false">
     <test name="Test">
         <classes>
-            <class name="tests.TareaTest"/>
+            <class name="SprintPlanificacionTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Test2">
         <classes>
-            <class name="tests.SprintPlanificacionTest"/>
+            <class name="SprintDesarrolloTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Test3">
         <classes>
-            <class name="tests.SprintDesarrolloTest"/>
+            <class name="SprintTestingTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Test3">
         <classes>
-            <class name="tests.SprintTestingTest"/>
+            <class name="TareaTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
