@@ -111,6 +111,28 @@
             <groupId>com.github.almasb</groupId>
             <artifactId>fxgl-core</artifactId>
             <version>17.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>eu.hansolo.fx</groupId>
+                    <artifactId>countries</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>eu.hansolo.fx</groupId>
+                    <artifactId>heatmap</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>eu.hansolo</groupId>
+                    <artifactId>toolboxfx</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>eu.hansolo</groupId>
+                    <artifactId>toolbox</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>eu.hansolo</groupId>
+                    <artifactId>tilesfx</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.github.almasb</groupId>
@@ -122,6 +144,7 @@
             <artifactId>fxgl</artifactId>
             <version>17.2</version>
         </dependency>
+
         <dependency>
             <groupId>com.github.almasb</groupId>
             <artifactId>fxgl-scene</artifactId>
