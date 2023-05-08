@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="false">
+    <test name="Test">
+        <classes>
+            <class name="tests.TareaTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test2">
+        <classes>
+            <class name="tests.SprintPlanificacionTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test3">
+        <classes>
+            <class name="tests.SprintDesarrolloTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test3">
+        <classes>
+            <class name="tests.SprintTestingTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
