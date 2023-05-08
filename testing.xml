@@ -8,17 +8,17 @@
     </test> <!-- Test -->
     <test name="Test2">
         <classes>
-            <class name="tests.SprintPlanificacionTest"/>
+            <class name="com.example.package.tests.SprintPlanificacionTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Test3">
         <classes>
-            <class name="tests.SprintDesarrolloTest"/>
+            <class name="com.example.package.tests.SprintDesarrolloTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Test3">
         <classes>
-            <class name="tests.SprintTestingTest"/>
+            <class name="com.example.package.tests.SprintTestingTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
