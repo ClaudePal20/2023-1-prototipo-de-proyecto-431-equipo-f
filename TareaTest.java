@@ -1,11 +1,8 @@
 import com.example.bibliotecadecodigopmi.scrumlibrary.Tarea;
-
 import java.time.LocalDate;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TareaTest {
-
     @org.junit.jupiter.api.Test
     void getNombreTest() {
         LocalDate fecha = LocalDate.now();
@@ -31,6 +28,4 @@ public class TareaTest {
         Tarea tarea = new Tarea("Nombre",fecha,fecha2,"Descripcion");
         assertEquals("Descripcion",tarea.getDescripcion());
     }
-
-
 }

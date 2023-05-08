@@ -50,8 +50,10 @@ public class Tarea {
 	 * @param Descripcion
 	 */
 	public Tarea(String Nombre, java.time.LocalDate FechaDeInicio, java.time.LocalDate FechaDeTerminado, String Descripcion) {
-		// TODO - implement Tarea.Tarea
-		throw new UnsupportedOperationException();
+		this.Nombre = Nombre;
+		this.FechaDeInicio = FechaDeInicio;
+		this.FechaDeTerminado = FechaDeTerminado;
+		this.Descripcion = Descripcion;
 	}
 
 	/**
