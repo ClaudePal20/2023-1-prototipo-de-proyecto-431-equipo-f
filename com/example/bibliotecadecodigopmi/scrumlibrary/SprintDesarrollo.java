@@ -1,6 +1,6 @@
 package com.example.bibliotecadecodigopmi.scrumlibrary;
 
-class SprintDesarrollo extends Sprint {
+public class SprintDesarrollo extends Sprint {
 
 	private int puntosDeHistoria;
 

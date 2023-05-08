@@ -1,4 +1,4 @@
-package com.example.bibliotecadecodigopmi;
+package Maven;
 
 import com.example.bibliotecadecodigopmi.scrumlibrary.SprintPlanificacion;
 import org.junit.jupiter.api.Test;
