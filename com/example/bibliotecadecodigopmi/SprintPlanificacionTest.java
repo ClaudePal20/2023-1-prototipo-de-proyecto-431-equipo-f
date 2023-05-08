@@ -1,5 +1,6 @@
-package com.example.bibliotecadecodigopmi.scrumlibrary;
+package com.example.bibliotecadecodigopmi;
 
+import com.example.bibliotecadecodigopmi.scrumlibrary.SprintPlanificacion;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

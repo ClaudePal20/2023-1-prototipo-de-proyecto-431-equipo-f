@@ -1,4 +1,6 @@
-package com.example.bibliotecadecodigopmi.scrumlibrary;
+package com.example.bibliotecadecodigopmi;
+
+import com.example.bibliotecadecodigopmi.scrumlibrary.SprintTesting;
 
 import static org.junit.jupiter.api.Assertions.*;
 

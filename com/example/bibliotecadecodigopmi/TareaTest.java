@@ -1,4 +1,6 @@
-package com.example.bibliotecadecodigopmi.scrumlibrary;
+package com.example.bibliotecadecodigopmi;
+
+import com.example.bibliotecadecodigopmi.scrumlibrary.Tarea;
 
 import java.time.LocalDate;
 
