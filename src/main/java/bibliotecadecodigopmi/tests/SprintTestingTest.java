@@ -1,9 +1,6 @@
 package bibliotecadecodigopmi.tests;
-
 import bibliotecadecodigopmi.scrumlibrary.SprintTesting;
-
 import static org.junit.jupiter.api.Assertions.*;
-
 class SprintTestingTest {
     @org.junit.jupiter.api.Test
     void getNumeroDeErrores() {
