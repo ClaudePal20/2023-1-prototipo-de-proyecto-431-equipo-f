@@ -1,9 +1,6 @@
 package bibliotecadecodigopmi.scrumlibrary;
-
 public class SprintTesting extends Sprint {
-
 	private int casosDePrueba;
-
 	/**
 	 * 
 	 * @param numero
