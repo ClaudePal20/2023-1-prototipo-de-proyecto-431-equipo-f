@@ -1,8 +1,6 @@
 package bibliotecadecodigopmi.scrumlibrary;
 public class SprintDesarrollo extends Sprint {
-
 	private int puntosDeHistoria;
-
 	/**
 	 * 
 	 * @param numero
@@ -18,7 +16,6 @@ public class SprintDesarrollo extends Sprint {
 	public int getPuntosDeHistoria() {
 		return puntosDeHistoria;
 	}
-
 	@Override
 	public void ejecutar() {
 
