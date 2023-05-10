@@ -1,13 +1,13 @@
 package bibliotecadecodigopmi.tests;
-
 import bibliotecadecodigopmi.scrumlibrary.SprintPlanificacion;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class SprintPlanificacionTest {
-    @org.junit.jupiter.api.Test
+    @Test
     void getEntregables() {
         ArrayList<String> entregables = new ArrayList<>();
         entregables.add("Entregable 1");

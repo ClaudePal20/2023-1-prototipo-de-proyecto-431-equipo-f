@@ -1,13 +1,13 @@
 package bibliotecadecodigopmi.tests;
-
 import bibliotecadecodigopmi.scrumlibrary.Tarea;
+import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class TareaTest {
-    @org.junit.jupiter.api.Test
+    @Test
     void getNombreTest() {
         LocalDate fecha = LocalDate.now();
         LocalDate fecha2 = LocalDate.now();
@@ -15,7 +15,7 @@ class TareaTest {
         tarea.setNombre("Nombre2");
         assertEquals("Nombre2",tarea.getNombre());
     }
-    @org.junit.jupiter.api.Test
+    @Test
     void getFechaDeTerminadoTest(){
         LocalDate fecha = LocalDate.now();
         LocalDate fecha2 = LocalDate.now();
@@ -23,7 +23,7 @@ class TareaTest {
         Tarea tarea = new Tarea("Nombre",fecha,fecha2,"Descripcion");
         assertEquals(fecha3,tarea.getFechaDeTerminado());
     }
-    @org.junit.jupiter.api.Test
+    @Test
     void getDescripcionTest() {
         LocalDate fecha = LocalDate.now();
         LocalDate fecha2 = LocalDate.now();
