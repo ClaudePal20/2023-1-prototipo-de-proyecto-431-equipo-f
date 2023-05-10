@@ -9,6 +9,7 @@ public class SprintDesarrollo extends Sprint {
 	 * @param puntosDeHistoria
 	 * @param nombre
 	 */
+	//
 	public SprintDesarrollo(int numero, String objetivo, int duracionEnSemanas, int puntosDeHistoria, String nombre) {
 		super(numero, objetivo, duracionEnSemanas, nombre);
 		this.puntosDeHistoria = puntosDeHistoria;
