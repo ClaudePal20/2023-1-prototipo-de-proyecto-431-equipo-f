@@ -1,6 +1,8 @@
-import com.example.bibliotecadecodigopmi.scrumlibrary.SprintTesting;
+package bibliotecadecodigopmi.tests;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import bibliotecadecodigopmi.scrumlibrary.SprintTesting;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class SprintTestingTest {
     @org.junit.jupiter.api.Test

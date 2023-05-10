@@ -1,5 +1,4 @@
 package bibliotecadecodigopmi.scrumlibrary;
-
 public class SprintDesarrollo extends Sprint {
 
 	private int puntosDeHistoria;

@@ -1,4 +1,4 @@
-package com.example.bibliotecadecodigopmi.scrumlibrary;
+package bibliotecadecodigopmi.scrumlibrary;
 
 public abstract class Sprint {
 
@@ -7,13 +7,6 @@ public abstract class Sprint {
 	protected int duracionEnSemanas;
 	protected String nombre;
 
-	/**
-	 * 
-	 * @param numero
-	 * @param objetivo
-	 * @param duracionEnSemanas
-	 * @param nombre
-	 */
 	public Sprint(int numero, String objetivo, int duracionEnSemanas, String nombre) {
 		this.numero = numero;
 		this.objetivo = objetivo;
