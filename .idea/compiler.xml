@@ -13,7 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="2023-1-prototipo-de-proyecto-431-equipo-f" target="1.8" />
+      <module name="2023-1-prototipo-de-proyecto-431-equipo-f" target="11" />
       <module name="Maven" target="1.5" />
     </bytecodeTargetLevel>
   </component>
